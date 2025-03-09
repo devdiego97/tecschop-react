@@ -10,7 +10,7 @@ export const Routes=()=>{
     return <Router>
        <Route path="" element={<Home />} />
        <Route path="/products" element={<Products />} />
-       <Route path="/products/:id" element={<ProductId/>} />
+       <Route path="/products/:id/:name" element={<ProductId/>} />
        <Route path="/sigin" element={<Login />} />
        <Route path="/register" element={<Register />} />
     </Router>
