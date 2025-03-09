@@ -7,6 +7,7 @@ type Props = {
   };
   
   export const Box = styled.div<Props>`
+  transition: all ease .3s;
     background-image: url(${(props) => props.src});
     width: ${(props) =>
       typeof props.width === "number" ? `${props.width}px` : props.width};

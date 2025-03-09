@@ -1,0 +1,37 @@
+.page{
+    margin:100px 60px ;
+}
+
+.card{
+    padding:22px 12px;
+    .price{
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+    .footer-card{
+        padding: 0 40px;
+
+    }
+    
+}
+
+.desc{
+    margin: 50px 0;
+    p{
+        line-height: 20px;
+        margin: 12px 0;
+        font-size: 1rem;
+    }
+}
+
+.grid-imgs{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 50px;
+    .img{
+        border: 1px solid #eee;
+        padding: 12x;
+    }
+   
+}
